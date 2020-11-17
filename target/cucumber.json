@@ -1,0 +1,1056 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is in Contact form page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13427933500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in Home page",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_is_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 340619500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to contact form page",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_navigates_to_contact_form_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in contact form page",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_is_in_contact_form_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-17T00:15:58.083Z",
+        "line": 16,
+        "name": "Check the functionality of contact form with valid credentials",
+        "description": "",
+        "id": "feature-to-test-contact-form-functionality.;check-the-functionality-of-contact-form-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6243100700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters  Please send me the details of new locations to visit,Haran and rion@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": " Please send me the details of new locations to visit",
+                  "offset": 12
+                },
+                {
+                  "val": "Haran",
+                  "offset": 66
+                },
+                {
+                  "val": "rion@gmail.com",
+                  "offset": 76
+                }
+              ],
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_enters_details(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170501300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on checkbox",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_clicks_on_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140014700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on submit button",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2153391500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Contact form submitted successfully.",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.contact_form_submitted_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is in Contact form page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11792096700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in Home page",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_is_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 662597500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to contact form page",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_navigates_to_contact_form_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in contact form page",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_is_in_contact_form_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-17T00:16:20.665Z",
+        "line": 18,
+        "name": "Check proper error message is displayed while submitting form with blank fields",
+        "description": "",
+        "id": "feature-to-test-contact-form-functionality.;check-proper-error-message-is-displayed-while-submitting-form-with-blank-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3267425100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_clicks_on_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2188552600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Proper error message is displayed",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.proper_error_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is in Contact form page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11895386300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in Home page",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_is_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 251276300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to contact form page",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_navigates_to_contact_form_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in contact form page",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_is_in_contact_form_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-17T00:16:38.609Z",
+        "line": 29,
+        "name": "Check the functionality of Checkbox",
+        "description": "",
+        "id": "feature-to-test-contact-form-functionality.;check-the-functionality-of-checkbox;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8849325400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters  Plese help me to get the details of best choice to travel,Hima and hima@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": " Plese help me to get the details of best choice to travel",
+                  "offset": 12
+                },
+                {
+                  "val": "Hima",
+                  "offset": 71
+                },
+                {
+                  "val": "hima@gmail.com",
+                  "offset": 80
+                }
+              ],
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_enters_details(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181197500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on submit button without marking checkbox",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.click_on_submit_button_without_marking_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136993800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Proper error message is displayed in order to tick the checkbox",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.proper_error_message_is_displayed_in_order_to_tick_the_checkbox()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is in Contact form page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10894899300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in Home page",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_is_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 339756500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to contact form page",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_navigates_to_contact_form_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in contact form page",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_is_in_contact_form_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-17T00:16:59.946Z",
+        "line": 37,
+        "name": "Check if email address is properly validated",
+        "description": "",
+        "id": "feature-to-test-contact-form-functionality.;check-if-email-address-is-properly-validated;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2893395500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User entering agrvc,Fida and fidan@",
+            "match": {
+              "arguments": [
+                {
+                  "val": "agrvc",
+                  "offset": 14
+                },
+                {
+                  "val": "Fida",
+                  "offset": 20
+                },
+                {
+                  "val": "fidan@",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.ContactFormSubmissionSteps.user_entering_agrvc(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1030166000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Proper error message for email validation is displayed",
+            "match": {
+              "location": "StepDefinitions.ContactFormSubmissionSteps.proper_error_message_for_email_validation_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test contact form functionality.",
+    "description": "",
+    "id": "feature-to-test-contact-form-functionality.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/ContactFormSubmission.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is in Subscribe Newsletterform",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11696639700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens Home page",
+            "match": {
+              "location": "StepDefinitions.NewslettersubscriptionSteps.user_is_in_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12017000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigates to subscriber Newsletter form",
+            "match": {
+              "location": "StepDefinitions.NewslettersubscriptionSteps.navigates_to_subscriber_Newsletter_form()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-17T00:17:15.123Z",
+        "line": 14,
+        "name": "Test to check email validation",
+        "description": "",
+        "id": "feature-to-subscribe-to-a-newsletter;test-to-check-email-validation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 126138900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The User enters nuy6a2@",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nuy6a2@",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.NewslettersubscriptionSteps.user_submitdata(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2120147100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Proper validation message is displayed there",
+            "match": {
+              "location": "StepDefinitions.NewslettersubscriptionSteps.proper_validation_message_is_displayed_there()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is in Subscribe Newsletterform",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11335126600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens Home page",
+            "match": {
+              "location": "StepDefinitions.NewslettersubscriptionSteps.user_is_in_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16772200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigates to subscriber Newsletter form",
+            "match": {
+              "location": "StepDefinitions.NewslettersubscriptionSteps.navigates_to_subscriber_Newsletter_form()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-17T00:17:29.094Z",
+        "line": 24,
+        "name": "Test to subscribe Newsletter with valid email",
+        "description": "",
+        "id": "feature-to-subscribe-to-a-newsletter;test-to-subscribe-newsletter-with-valid-email;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 226456600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Passs valid email binweeg@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "binweeg@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.NewslettersubscriptionSteps.user_entering_validemail_com(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5168871700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click on Inspire Me button",
+            "match": {
+              "location": "StepDefinitions.NewslettersubscriptionSteps.click_on_Inspire_Me_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2270210800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is Subscribed to the  Newsletter successfully",
+            "match": {
+              "location": "StepDefinitions.NewslettersubscriptionSteps.user_is_Subscribed_to_the_Newsletter_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to subscribe to a Newsletter",
+    "description": "",
+    "id": "feature-to-subscribe-to-a-newsletter",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/NewsletterSubscribe.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is serch screen",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10190636400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in trivago magazine home page",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.user_is_in_trivago_magazine_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 394011100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Clicks on search icon",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.clicks_on_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is taken to search page.",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.user_is_taken_to_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-17T00:17:48.125Z",
+        "line": 15,
+        "name": "Check search functionality os working fine with valid keyword",
+        "description": "",
+        "id": "feature-to-test-search-for-any-location-using-search-bar;check-search-functionality-os-working-fine-with-valid-keyword;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1793166100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters TEXAS in search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TEXAS",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.Searchsteps.user_enters_serach_location_in_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6301656000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on enter key",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.click_on_enter_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3251829500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Proper search result for corresponding location is displayed",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.proper_search_result_for_corresponding_location_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is serch screen",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10708936400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in trivago magazine home page",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.user_is_in_trivago_magazine_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192735400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Clicks on search icon",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.clicks_on_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is taken to search page.",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.user_is_taken_to_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-17T00:18:10.069Z",
+        "line": 16,
+        "name": "Check search functionality os working fine with valid keyword",
+        "description": "",
+        "id": "feature-to-test-search-for-any-location-using-search-bar;check-search-functionality-os-working-fine-with-valid-keyword;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1635815300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters FLORIDA in search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FLORIDA",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.Searchsteps.user_enters_serach_location_in_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6131618200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on enter key",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.click_on_enter_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3302517800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Proper search result for corresponding location is displayed",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.proper_search_result_for_corresponding_location_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is serch screen",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10491468100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in trivago magazine home page",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.user_is_in_trivago_magazine_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 300080900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Clicks on search icon",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.clicks_on_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is taken to search page.",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.user_is_taken_to_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-17T00:18:32.048Z",
+        "line": 25,
+        "name": "Check the search functionality using non matching keywords",
+        "description": "",
+        "id": "feature-to-test-search-for-any-location-using-search-bar;check-the-search-functionality-using-non-matching-keywords;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3782279000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Non matching keyword enters Kerala   in search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": " Kerala ",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.Searchsteps.non_matching_keyword_enters_Kerala_in_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6144210900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Clicks on enter key",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.user_Clicks_on_enter_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286541400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "No results are displayed for the corresponding location",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.no_results_are_displayed_for_the_corresponding_location()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is serch screen",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10025777400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in trivago magazine home page",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.user_is_in_trivago_magazine_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199432300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Clicks on search icon",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.clicks_on_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is taken to search page.",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.user_is_taken_to_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-17T00:18:53.059Z",
+        "line": 26,
+        "name": "Check the search functionality using non matching keywords",
+        "description": "",
+        "id": "feature-to-test-search-for-any-location-using-search-bar;check-the-search-functionality-using-non-matching-keywords;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3651906600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Non matching keyword enters Kannur   in search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": " Kannur ",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.Searchsteps.non_matching_keyword_enters_Kerala_in_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6099318600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Clicks on enter key",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.user_Clicks_on_enter_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228462400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "No results are displayed for the corresponding location",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.no_results_are_displayed_for_the_corresponding_location()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is serch screen",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9882596400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in trivago magazine home page",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.user_is_in_trivago_magazine_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 249102200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Clicks on search icon",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.clicks_on_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is taken to search page.",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.user_is_taken_to_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-17T00:19:13.269Z",
+        "line": 28,
+        "name": "Check the functionality of all destination tab under search filed",
+        "description": "",
+        "id": "feature-to-test-search-for-any-location-using-search-bar;check-the-functionality-of-all-destination-tab-under-search-filed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3136343900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user clicks on All destination tab",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.user_clicks_on_All_destination_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7012469500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Proper result for all destinations is displayed",
+            "match": {
+              "location": "StepDefinitions.Searchsteps.proper_result_for_all_destinations_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test Search for any location using search bar",
+    "description": "",
+    "id": "feature-to-test-search-for-any-location-using-search-bar",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Search.feature",
+    "tags": []
+  }
+]

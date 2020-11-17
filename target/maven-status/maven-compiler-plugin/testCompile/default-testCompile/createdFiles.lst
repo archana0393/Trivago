@@ -1,0 +1,7 @@
+Pages\ContactFormSubmission.class
+StepDefinitions\ContactFormSubmissionSteps.class
+StepDefinitions\Searchsteps.class
+Pages\NewsletterSubscription.class
+StepDefinitions\NewslettersubscriptionSteps.class
+StepDefinitions\TestRunner.class
+Pages\Searchlocation.class

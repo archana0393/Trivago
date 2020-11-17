@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Trivago</td>
+                          <td>1</td>
+                        <td>16 Nov 2020, 16:19</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">StepDefinitions.ContactFormSubmissionSteps.click_on_submit_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="140014700">140ms</td>
+                <td class="duration" data-value="140014700">140ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.ContactFormSubmissionSteps.click_on_submit_button_without_marking_checkbox()</td>
+                <td>1</td>
+                <td class="duration" data-value="181197500">181ms</td>
+                <td class="duration" data-value="181197500">181ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.ContactFormSubmissionSteps.contact_form_submitted_successfully()</td>
+                <td>1</td>
+                <td class="duration" data-value="2153391500">2s 153ms</td>
+                <td class="duration" data-value="2153391500">2s 153ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.ContactFormSubmissionSteps.proper_error_message_for_email_validation_is_displayed()</td>
+                <td>1</td>
+                <td class="duration" data-value="1030166000">1s 030ms</td>
+                <td class="duration" data-value="1030166000">1s 030ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.ContactFormSubmissionSteps.proper_error_message_is_displayed()</td>
+                <td>1</td>
+                <td class="duration" data-value="2188552600">2s 188ms</td>
+                <td class="duration" data-value="2188552600">2s 188ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.ContactFormSubmissionSteps.proper_error_message_is_displayed_in_order_to_tick_the_checkbox()</td>
+                <td>1</td>
+                <td class="duration" data-value="136993800">136ms</td>
+                <td class="duration" data-value="136993800">136ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.ContactFormSubmissionSteps.user_clicks_on_checkbox()</td>
+                <td>1</td>
+                <td class="duration" data-value="170501300">170ms</td>
+                <td class="duration" data-value="170501300">170ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.ContactFormSubmissionSteps.user_clicks_on_submit_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="3267425100">3s 267ms</td>
+                <td class="duration" data-value="3267425100">3s 267ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.ContactFormSubmissionSteps.user_entering_agrvc(java.lang.String,java.lang.String,java.lang.String)</td>
+                <td>1</td>
+                <td class="duration" data-value="2893395500">2s 893ms</td>
+                <td class="duration" data-value="2893395500">2s 893ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.ContactFormSubmissionSteps.user_enters_details(java.lang.String,java.lang.String,java.lang.String)</td>
+                <td>2</td>
+                <td class="duration" data-value="15092426100">15s 092ms</td>
+                <td class="duration" data-value="7546213050">7s 546ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.ContactFormSubmissionSteps.user_is_in_contact_form_page()</td>
+                <td>4</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.ContactFormSubmissionSteps.user_is_in_homepage()</td>
+                <td>4</td>
+                <td class="duration" data-value="48010315800">48s 010ms</td>
+                <td class="duration" data-value="12002578950">12s 002ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.ContactFormSubmissionSteps.user_navigates_to_contact_form_page()</td>
+                <td>4</td>
+                <td class="duration" data-value="1594249800">1s 594ms</td>
+                <td class="duration" data-value="398562450">398ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.NewslettersubscriptionSteps.click_on_Inspire_Me_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="5168871700">5s 168ms</td>
+                <td class="duration" data-value="5168871700">5s 168ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.NewslettersubscriptionSteps.navigates_to_subscriber_Newsletter_form()</td>
+                <td>2</td>
+                <td class="duration" data-value="28789200">028ms</td>
+                <td class="duration" data-value="14394600">014ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.NewslettersubscriptionSteps.proper_validation_message_is_displayed_there()</td>
+                <td>1</td>
+                <td class="duration" data-value="2120147100">2s 120ms</td>
+                <td class="duration" data-value="2120147100">2s 120ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.NewslettersubscriptionSteps.user_entering_validemail_com(java.lang.String)</td>
+                <td>1</td>
+                <td class="duration" data-value="226456600">226ms</td>
+                <td class="duration" data-value="226456600">226ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.NewslettersubscriptionSteps.user_is_Subscribed_to_the_Newsletter_successfully()</td>
+                <td>1</td>
+                <td class="duration" data-value="2270210800">2s 270ms</td>
+                <td class="duration" data-value="2270210800">2s 270ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.NewslettersubscriptionSteps.user_is_in_Home_page()</td>
+                <td>2</td>
+                <td class="duration" data-value="23031766300">23s 031ms</td>
+                <td class="duration" data-value="11515883150">11s 515ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.NewslettersubscriptionSteps.user_submitdata(java.lang.String)</td>
+                <td>1</td>
+                <td class="duration" data-value="126138900">126ms</td>
+                <td class="duration" data-value="126138900">126ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.Searchsteps.click_on_enter_key()</td>
+                <td>2</td>
+                <td class="duration" data-value="12433274200">12s 433ms</td>
+                <td class="duration" data-value="6216637100">6s 216ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.Searchsteps.clicks_on_search_icon()</td>
+                <td>5</td>
+                <td class="duration" data-value="1335361900">1s 335ms</td>
+                <td class="duration" data-value="267072380">267ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.Searchsteps.no_results_are_displayed_for_the_corresponding_location()</td>
+                <td>2</td>
+                <td class="duration" data-value="515003800">515ms</td>
+                <td class="duration" data-value="257501900">257ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.Searchsteps.non_matching_keyword_enters_Kerala_in_search_field(java.lang.String)</td>
+                <td>2</td>
+                <td class="duration" data-value="7434185600">7s 434ms</td>
+                <td class="duration" data-value="3717092800">3s 717ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.Searchsteps.proper_result_for_all_destinations_is_displayed()</td>
+                <td>1</td>
+                <td class="duration" data-value="7012469500">7s 012ms</td>
+                <td class="duration" data-value="7012469500">7s 012ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.Searchsteps.proper_search_result_for_corresponding_location_is_displayed()</td>
+                <td>2</td>
+                <td class="duration" data-value="6554347300">6s 554ms</td>
+                <td class="duration" data-value="3277173650">3s 277ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.Searchsteps.user_Clicks_on_enter_key()</td>
+                <td>2</td>
+                <td class="duration" data-value="12243529500">12s 243ms</td>
+                <td class="duration" data-value="6121764750">6s 121ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.Searchsteps.user_clicks_on_All_destination_tab()</td>
+                <td>1</td>
+                <td class="duration" data-value="3136343900">3s 136ms</td>
+                <td class="duration" data-value="3136343900">3s 136ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.Searchsteps.user_enters_serach_location_in_search_field(java.lang.String)</td>
+                <td>2</td>
+                <td class="duration" data-value="3428981400">3s 428ms</td>
+                <td class="duration" data-value="1714490700">1s 714ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.Searchsteps.user_is_in_trivago_magazine_home_page()</td>
+                <td>5</td>
+                <td class="duration" data-value="51299414700">51s 299ms</td>
+                <td class="duration" data-value="10259882940">10s 259ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinitions.Searchsteps.user_is_taken_to_search_page()</td>
+                <td>5</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>31</td>
+              <td>61</td>
+              <td class="duration">3m 35s 223ms</td>
+              <td class="duration">3s 528ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
